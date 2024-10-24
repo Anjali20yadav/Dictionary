@@ -1,0 +1,43 @@
+{
+	"folders": [
+		{
+			"path": "../.vscode"
+		},
+		{
+			"path": "../spotify clone"
+		},
+		{
+			"path": "../js"
+		},
+		{
+			"path": "../guessing game"
+		},
+		{
+			"path": "../weather app"
+		},
+		{
+			"path": "../Random joke generator"
+		},
+		{
+			"path": "../javascript learning"
+		},
+		{
+			"path": "../to do list"
+		},
+		{
+			"path": "../simon says game"
+		},
+		{
+			"path": "../using API"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../git demo"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "dictionary"
+	}
+}
