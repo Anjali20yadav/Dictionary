@@ -32,10 +32,15 @@ const getWordInfo = (word) => {
                 const li = document.createElement('li');
                 li.textContent = definitionObj.definition;
                 ul.appendChild(li);
+
             });
+            resultDiv.appendChild(ul);
+            const heading2 = document.createElement('p');
+            heading2.innerHTML =`<strong>Part of speech is</strong> ${partspeech}`;
+            resultDiv.appendChild(heading2);
            
             
-            resultDiv.appendChild(ul);
+           
         } catch (error) {
             console.error("Error fetching the word information:", error);
            // resultDiv.innerHTML = `<p>Error fetching word information. Please try again.</p>`;
